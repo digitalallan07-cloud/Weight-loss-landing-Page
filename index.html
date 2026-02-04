@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VLCC UAE - Beautiful You, Delivered By Science</title>
+  <meta name="description" content="VLCC Weight Management & Slimming - Advanced weight management and healthy living using minimally invasive to completely non-invasive treatments.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-text">VLCC</span>
+      </a>
+      <nav class="header-nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#book">Book Now</a>
+      </nav>
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-geometric"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="hero-title-italic">Beautiful You,</span>
+          <span class="hero-title-italic">Delivered By Science</span>
+        </h1>
+        <p class="hero-subtitle">Get Ready for Your Transformation Journey Now!</p>
+        <div class="hero-cta">
+          <a href="#book" class="btn btn-primary">Book Free Consultation <i class="fas fa-arrow-right"></i></a>
+          <a href="#services" class="btn btn-outline">Explore Services</a>
+        </div>
+      </div>
+      <div class="hero-images">
+        <div class="hero-image-card hero-image-left">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=500&fit=crop&crop=top" alt="Fitness transformation - man">
+        </div>
+        <div class="hero-image-card hero-image-right">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=500&fit=crop&crop=top" alt="Beauty transformation - woman">
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 60L48 52C96 44 192 28 288 24C384 20 480 28 576 40C672 52 768 68 864 72C960 76 1056 68 1152 56C1248 44 1344 28 1392 20L1440 12V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0V60Z" fill="#faf9f6"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" data-target="300">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Clinics Worldwide</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="35">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="10">0</span><span class="stat-suffix">M+</span>
+          <span class="stat-label">Happy Customers</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Countries</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content: Form + Services -->
+  <section class="main-content" id="about">
+    <div class="container main-grid">
+
+      <!-- Appointment Form -->
+      <aside class="form-section" id="book">
+        <div class="form-card">
+          <div class="form-header">
+            <h2>Book an Appointment</h2>
+            <p>Start your transformation journey today</p>
+          </div>
+          <form class="appointment-form" id="appointmentForm">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Enter Your Name*" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <div class="phone-input">
+                <div class="country-code">
+                  <img src="https://flagcdn.com/w20/ae.png" alt="UAE" width="20" height="15">
+                  <span>+971</span>
+                </div>
+                <input type="tel" id="phone" placeholder="Phone Number*" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Gender</label>
+              <div class="gender-group">
+                <label class="radio-label">
+                  <input type="radio" name="gender" value="male" checked>
+                  <span class="radio-custom"></span>
+                  Male
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="gender" value="female">
+                  <span class="radio-custom"></span>
+                  Female
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+              <label for="category">Category</label>
+              <select id="category" required>
+                <option value="" disabled selected>Select Category</option>
+                <option value="weight-management">Weight Management</option>
+                <option value="coolsculpting">CoolSculpting</option>
+                <option value="body-therapies">Body Therapies</option>
+                <option value="dermatology">Aesthetic Dermatology</option>
+                <option value="beauty">Beauty Services</option>
+                <option value="hair">Hair Technology</option>
+                <option value="laser">Laser Treatments</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="city">City</label>
+              <select id="city" required>
+                <option value="" disabled selected>Select City*</option>
+                <option value="dubai">Dubai</option>
+                <option value="abu-dhabi">Abu Dhabi</option>
+                <option value="sharjah">Sharjah</option>
+                <option value="ajman">Ajman</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="center">Center</label>
+              <select id="center">
+                <option value="" disabled selected>Select Center</option>
+                <option value="center-1">VLCC Dubai Mall</option>
+                <option value="center-2">VLCC Marina</option>
+                <option value="center-3">VLCC Abu Dhabi</option>
+              </select>
+            </div>
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="terms" required>
+                <span class="checkbox-custom"></span>
+                I have read &amp; agreed to the <a href="#">T&amp;C</a> and the <a href="#">privacy policy</a>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-submit">
+              Submit <i class="fas fa-arrow-right"></i>
+            </button>
+            <p class="form-note">*Mandatory Fields. Terms &amp; Condition apply. Result may vary from person to person.</p>
+          </form>
+        </div>
+      </aside>
+
+      <!-- Services Content -->
+      <div class="services-section" id="services">
+        <div class="section-badge">Our Services</div>
+        <h2 class="section-title">VLCC Weight Management &amp; Slimming</h2>
+        <p class="section-description">
+          VLCC Weight Management &amp; Slimming is a programme recommended by IMA that promotes advanced
+          weight management and healthy living using minimally invasive to completely non-invasive treatments.
+          It focuses on helping customers achieve the right body weight and shape while controlling, reducing,
+          and removing excess body weight and unwanted fat.
+        </p>
+
+        <div class="services-grid">
+          <!-- CoolSculpting -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-snowflake"></i>
+            </div>
+            <div class="service-content">
+              <h3>VLCC CoolSculpting</h3>
+              <p>A non-surgical body contouring procedure, CoolSculpting is a highly advanced service that enables fat
+              reduction from any or all parts of the body. It is an FDA-approved treatment that offers permanent fat loss
+              treatment, resulting in a visibly slimmer and contoured body shape for figure enhancement.</p>
+            </div>
+          </div>
+
+          <!-- Body Therapies -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-spa"></i>
+            </div>
+            <div class="service-content">
+              <h3>VLCC Body Therapies</h3>
+              <p>VLCC body therapies include a range of special programs to restore good health. Conducted by Experts,
+              VLCC body therapy sessions involve high technology machinery to break down stubborn fat, reduce stress,
+              improve physical health, cure body pains and much more.</p>
+            </div>
+          </div>
+
+          <!-- Aesthetic Dermatology -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-hand-sparkles"></i>
+            </div>
+            <div class="service-content">
+              <h3>Aesthetic Dermatology</h3>
+              <p>VLCC aesthetic dermatology aims at successfully improving physical features and skin quality to keep you
+              looking beautiful, healthy and radiant. The program uses the latest technology to provide effective treatment
+              for a variety of skin conditions like acne, pigmentation, dark spots, scars, cellulite marks, signs of ageing
+              and much more.</p>
+            </div>
+          </div>
+
+          <!-- Beauty Services -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-gem"></i>
+            </div>
+            <div class="service-content">
+              <h3>Beauty Services</h3>
+              <p>VLCC Grooming &amp; Regular Beauty services comprises all essential services that elevates the physical
+              appearance of individuals. VLCC Beauty services include a range of treatments &ndash; basic to high-end, like
+              threading, facials, clean ups, massages and much more to keep you looking gorgeous and ready, everyday.</p>
+            </div>
+          </div>
+
+          <!-- Hair Technology -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-wind"></i>
+            </div>
+            <div class="service-content">
+              <h3>Hair Technology</h3>
+              <p>VLCC Hair &amp; Hair technology involves grooming methods curated especially to augment hair health. From
+              haircuts to hair care treatments like spas and oil therapies, the service comprises essentials that aim to
+              improve hair texture, appearance, and growth while combating stress, environmental aggression, and pollution.</p>
+            </div>
+          </div>
+
+          <!-- Laser Treatments -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <div class="service-content">
+              <h3>VLCC Laser Treatments</h3>
+              <p>VLCC laser treatments involve the usage of the latest technology to ensure safe and complete reduction of
+              unwanted body hair. The service aims at delivering permanent results while keeping the skin safe to ensure
+              smooth, soft and even toned skin for all complexions using non-invasive and non-surgical treatments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transformations Section -->
+  <section class="transformations">
+    <div class="container">
+      <div class="section-badge">Real Results</div>
+      <h2 class="section-title centered">Real Stories, Beautiful Transformations</h2>
+      <p class="section-description centered">Thousands of clients have achieved their dream body with VLCC's science-backed treatments.</p>
+      <div class="transformation-grid">
+        <div class="transformation-card">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop" alt="Weight loss transformation">
+          <div class="transformation-overlay">
+            <span class="transformation-tag">Weight Management</span>
+          </div>
+        </div>
+        <div class="transformation-card">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop" alt="Body therapy session">
+          <div class="transformation-overlay">
+            <span class="transformation-tag">Body Therapies</span>
+          </div>
+        </div>
+        <div class="transformation-card">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=300&fit=crop" alt="Skin treatment">
+          <div class="transformation-overlay">
+            <span class="transformation-tag">Skin Care</span>
+          </div>
+        </div>
+        <div class="transformation-card">
+          <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=300&fit=crop" alt="Beauty services">
+          <div class="transformation-overlay">
+            <span class="transformation-tag">Beauty Services</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-badge">Testimonials</div>
+      <h2 class="section-title centered">What Our Clients Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"VLCC has completely transformed my life. The weight management program helped me lose 15kg in a healthy, sustainable way. The team is professional and supportive throughout the journey."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S</div>
+            <div>
+              <strong>Sara A.</strong>
+              <span>Dubai, UAE</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"The CoolSculpting treatment was incredible. Non-invasive, no downtime, and the results were visible within weeks. I highly recommend VLCC for anyone looking to contour their body."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">M</div>
+            <div>
+              <strong>Mohammed K.</strong>
+              <span>Abu Dhabi, UAE</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"I've been going to VLCC for their beauty services and dermatology treatments. My skin has never looked better. The laser treatment removed all unwanted hair painlessly."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">F</div>
+            <div>
+              <strong>Fatima R.</strong>
+              <span>Sharjah, UAE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Start Your Transformation?</h2>
+        <p>Book a free consultation with our experts and discover the perfect treatment plan for you.</p>
+        <a href="#book" class="btn btn-primary btn-large">Book Free Consultation <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms &amp; Condition</a>
+      </div>
+      <div class="footer-center">
+        <span class="logo-text logo-text-sm">VLCC</span>
+      </div>
+      <div class="footer-right">
+        <p>&copy; Copyright 2025 VLCC International LLC</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Action Buttons -->
+  <div class="floating-actions">
+    <a href="tel:+971" class="fab-btn fab-phone" aria-label="Call us">
+      <i class="fas fa-phone"></i>
+    </a>
+    <a href="https://wa.me/" class="fab-btn fab-whatsapp" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
